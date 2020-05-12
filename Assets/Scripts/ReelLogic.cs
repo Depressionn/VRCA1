@@ -17,7 +17,7 @@ public class ReelLogic : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-
+        reelSnapZone.eOnTriggerStay += CheckSpin;
     }
 
     // Update is called once per frame
@@ -42,4 +42,13 @@ public class ReelLogic : MonoBehaviour {
         }
     }
 
+    private void CheckSpin(Collider _other) {
+        if (_other.tag.Equals("LeftHand")) {
+            if (Input.GetButton("XRI_Left_GripButton")) {
+                reelModel.transform.LookAt(_other.transform.position, reelModel.transform.forward);
+
+                reelModel.transform.localRotation = Quaternion.Euler(0, 0, reelModel.transform.localRotation.eulerAngles.z);
+            }
+        }
+    }
 }
