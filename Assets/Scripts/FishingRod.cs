@@ -11,25 +11,33 @@ public enum RodState
     WaitingToCast,
     Casting,
     ReelReleased,
-    WaitingForBite
+    WaitingForBite,
+    Biting,
+    ReelingIn,
+    Caught
 }
 
 public class FishingRod : MonoBehaviour
 {
     public GameObject hook;
     public GameObject throwingPoint;
-    public MeshRenderer rope;
+    public LineRenderer rope;
 
     //FSM for rodstate
     private RodState m_rodState;
     public RodState CurrentRodState { get { return m_rodState; } }
 
     private Vector3 oldpos;
+
+    private float biteStrength;
+
+    public event Action WaitForBite;
     
     // Start is called before the first frame update
     void Start()
     {
         WaitToCast();
+        WaitForBite += WaitForBiteLocal;
     }
 
     public void WaitToCast()
@@ -54,11 +62,18 @@ public class FishingRod : MonoBehaviour
         rope.enabled = true;
     }
 
+    public void WaitForBiteLocal()
+    {
+        Debug.Log("waitforbite");
+        hook.GetComponent<Rigidbody>().isKinematic = true;
+        m_rodState = RodState.WaitingForBite;
+    }
+
     public void LandedInWater()
     {
         if (m_rodState == RodState.ReelReleased)
         {
-            m_rodState = RodState.WaitingForBite;
+            WaitForBite();
         }
     }
 
@@ -77,16 +92,34 @@ public class FishingRod : MonoBehaviour
         }
     }
 
-    public void Nibble()
+    public void Nibble(float strength)
     {
-
+        HapticImpulse(strength, 0.1f);
     }
+
+    public void Bite(float strength)
+    {
+        m_rodState = RodState.Biting;
+        biteStrength = strength;
+    }
+
     // Update is called once per frame
     void Update()
     {
+        if (rope.enabled)
+        {
+            rope.SetPosition(0, throwingPoint.transform.position);
+            rope.SetPosition(1, hook.transform.position);
+        }
+
         //Manage Inputs
         bool holdingReel = Input.GetButton("XRI_Right_GripButton");
         bool reset = Input.GetButton("XRI_Right_TriggerButton");
+
+        if (reset)
+        {
+            WaitToCast();
+        }
 
         switch (m_rodState)
         {
@@ -110,10 +143,9 @@ public class FishingRod : MonoBehaviour
             case RodState.ReelReleased:
                 break;
             case RodState.WaitingForBite:
-                if (reset)
-                {
-                    WaitToCast();
-                }
+                break;
+            case RodState.Biting:
+                HapticImpulse(biteStrength, Time.deltaTime);
                 break;
         }
     }

@@ -5,15 +5,64 @@ using UnityEngine;
 public class Lake : Singleton<Lake>
 {
     public List<Fish> fishes;
-    // Start is called before the first frame update
+    FishingRod fishingRod;
+    [Range(0.0f, 1.0f)]
+    public float luck;
+
+    private int fishIndex = 0;
+    public float timer;
+    private int numberOfNibblesToBite = 0;
+    public Fish CurrentFish { get { return fishes[fishIndex]; } }
+
     void Start()
     {
-        
+        fishingRod = FindObjectOfType<FishingRod>();
+        fishingRod.WaitForBite += WaitForBite;
+    }
+
+    public void WaitForBite()
+    {
+        Debug.Log("WaitForBite");
+        //Sort Fish at Random
+        fishes.Shuffle();
+        fishIndex = 0;
+        timer = Random.Range(3f - luck, 10f - luck * 2);
+        numberOfNibblesToBite = Random.Range(CurrentFish.avgNibble - 2, CurrentFish.avgNibble + 2);
+    }
+
+    private void Nibble()
+    {
+        numberOfNibblesToBite--;
+        fishingRod.Nibble(CurrentFish.nibbleStrength * 0.4f + 0.2f);
+        timer = 1 / CurrentFish.nibbleRate;
+        Debug.Log("Nibble");
+    }
+
+    private void Bite()
+    {
+        fishingRod.Bite(CurrentFish.nibbleStrength * 0.6f + 0.4f);
+        Debug.Log("Bite");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(timer > 0)
+        {
+            timer -= Time.deltaTime;
+        }
+        else
+        {
+            if (fishingRod.CurrentRodState == RodState.WaitingForBite)
+            {
+                if (numberOfNibblesToBite > 0)
+                {
+                    Nibble();
+                } else
+                {
+                    Bite();
+                }
+            }
+        }
     }
 }
