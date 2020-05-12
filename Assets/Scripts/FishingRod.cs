@@ -11,7 +11,7 @@ public enum RodState
     ReelReleased
 }
 
-public class FishingRod : MonoBehaviour
+public class FishingRod : Singleton<FishingRod>
 {
     public GameObject hook;
     public GameObject throwingPoint;
