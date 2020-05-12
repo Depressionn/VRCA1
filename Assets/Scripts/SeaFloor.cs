@@ -23,6 +23,7 @@ public class SeaFloor : MonoBehaviour
         if(other.gameObject == fishingRod.hook)
         {
             fishingRod.LandedInWater();
+            Debug.Log("LandedInWater");
         }
     }
 }
