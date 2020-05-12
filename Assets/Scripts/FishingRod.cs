@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Obi;
-using Unity.XR;
+using UnityEngine.XR.WSA.Input;
+using UnityEngine.XR;
+using System;
 
 public enum RodState
 {
     WaitingToCast,
     Casting,
-    ReelReleased
+    ReelReleased,
+    WaitingForBite
 }
 
 public class FishingRod : Singleton<FishingRod>
@@ -50,11 +53,40 @@ public class FishingRod : Singleton<FishingRod>
         hook.GetComponent<Rigidbody>().velocity = Vector3.Scale(v, new Vector3(1, 0, 2));
         rope.enabled = true;
     }
+
+    public void LandedInWater()
+    {
+        if (m_rodState == RodState.ReelReleased)
+        {
+            m_rodState = RodState.WaitingForBite;
+        }
+    }
+
+    void HapticImpulse(float strength, float duration)
+    {
+        InputDevice device = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
+        HapticCapabilities capabilities;
+        if (device.TryGetHapticCapabilities(out capabilities))
+        {
+            if (capabilities.supportsImpulse)
+            {
+                Debug.Log("Impulse sent");
+                uint channel = 0;
+                device.SendHapticImpulse(channel, strength, duration);
+            }
+        }
+    }
+
+    public void Nibble()
+    {
+
+    }
     // Update is called once per frame
     void Update()
     {
         //Manage Inputs
         bool holdingReel = Input.GetButton("XRI_Right_GripButton");
+        bool reset = Input.GetButton("XRI_Right_TriggerButton");
 
         switch (m_rodState)
         {
@@ -76,7 +108,9 @@ public class FishingRod : Singleton<FishingRod>
                 }
                 break;
             case RodState.ReelReleased:
-                if (holdingReel)
+                break;
+            case RodState.WaitingForBite:
+                if (reset)
                 {
                     WaitToCast();
                 }
