@@ -18,6 +18,7 @@ public class Lake : Singleton<Lake>
     {
         fishingRod = FindObjectOfType<FishingRod>();
         fishingRod.WaitForBite += WaitForBite;
+        fishingRod.reel.eOnSpinReel += DisturbFish;
     }
 
     public void WaitForBite()
@@ -40,8 +41,31 @@ public class Lake : Singleton<Lake>
 
     private void Bite()
     {
-        fishingRod.Bite(CurrentFish.nibbleStrength * 0.6f + 0.4f);
+        fishingRod.Bite(CurrentFish);
         Debug.Log("Bite");
+    }
+
+    public void NextFish()
+    {
+        fishIndex++;
+        if(fishIndex >= fishes.Count/2)
+        {
+            fishIndex = 0;
+            fishes.Shuffle();
+        }
+        timer = Random.Range(3f - luck, 10f - luck * 2);
+        numberOfNibblesToBite = Random.Range(CurrentFish.avgNibble - 2, CurrentFish.avgNibble + 2);
+    }
+
+    public void DisturbFish(float ammount)
+    {
+        if(fishingRod.CurrentRodState == RodState.WaitingForBite)
+        {
+            NextFish();
+        } else if (fishingRod.CurrentRodState == RodState.Biting)
+        {
+            fishingRod.CanReelIn();
+        }
     }
 
     // Update is called once per frame

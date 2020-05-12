@@ -22,6 +22,8 @@ public class FishingRod : Singleton<FishingRod>
     public GameObject hook;
     public GameObject throwingPoint;
     public LineRenderer rope;
+    public ReelLogic reel;
+    public GameObject catchPoint;
 
     //FSM for rodstate
     private RodState m_rodState;
@@ -29,7 +31,7 @@ public class FishingRod : Singleton<FishingRod>
 
     private Vector3 oldpos;
 
-    private float biteStrength;
+    Fish currentFish;
 
     public event Action WaitForBite;
     
@@ -38,6 +40,7 @@ public class FishingRod : Singleton<FishingRod>
     {
         WaitToCast();
         WaitForBite += WaitForBiteLocal;
+        reel.eOnSpinReel += OnSpinReel;
     }
 
     public void WaitToCast()
@@ -58,7 +61,7 @@ public class FishingRod : Singleton<FishingRod>
         Vector3 v = (transform.position - oldpos)/Time.deltaTime;
         Debug.Log(v);
         hook.GetComponent<Rigidbody>().isKinematic = false;
-        hook.GetComponent<Rigidbody>().velocity = Vector3.Scale(v, new Vector3(1, 0, 2));
+        hook.GetComponent<Rigidbody>().velocity = Vector3.Scale(v, new Vector3(2, 0, 2)) + new Vector3(0, 1, 0);
         rope.enabled = true;
     }
 
@@ -97,10 +100,39 @@ public class FishingRod : Singleton<FishingRod>
         HapticImpulse(strength, 0.1f);
     }
 
-    public void Bite(float strength)
+    public void Bite(Fish fish)
     {
+
         m_rodState = RodState.Biting;
-        biteStrength = strength;
+        currentFish = fish;
+    }
+
+    public void CanReelIn()
+    {
+        m_rodState = RodState.ReelingIn;
+    }
+
+    public void OnSpinReel(float spin)
+    {
+
+        if ((int)m_rodState > 2)
+        {
+            if (Vector3.Distance(hook.transform.position, new Vector3(transform.position.x, hook.transform.position.y, transform.position.z)) < 4)
+            {
+                if (m_rodState == RodState.ReelingIn || m_rodState == RodState.Caught) m_rodState = RodState.Caught;
+                else WaitToCast();
+            }
+            Vector3 target = new Vector3();
+            if (m_rodState == RodState.Caught)
+            {
+                target = catchPoint.transform.position;
+            }
+            else
+            {
+                target = new Vector3(transform.position.x, hook.transform.position.y, transform.position.z);
+            }
+            hook.transform.position = Vector3.MoveTowards(hook.transform.position, target, 0.001f * spin * Time.deltaTime);
+        }
     }
 
     // Update is called once per frame
@@ -145,7 +177,15 @@ public class FishingRod : Singleton<FishingRod>
             case RodState.WaitingForBite:
                 break;
             case RodState.Biting:
-                HapticImpulse(biteStrength, Time.deltaTime);
+                hook.transform.position += new Vector3(UnityEngine.Random.Range(-20f, 20f), 0f, UnityEngine.Random.Range(-20f, 20f)) * Time.deltaTime * currentFish.aggressiveness;
+                HapticImpulse(currentFish.nibbleStrength * 0.6f + 0.4f, Time.deltaTime);
+                break;
+            case RodState.ReelingIn:
+                hook.transform.position += new Vector3(UnityEngine.Random.Range(-20f, 20f), 0f, UnityEngine.Random.Range(-20f, 20f + 2f * currentFish.aggressiveness)) * Time.deltaTime * currentFish.aggressiveness;
+                HapticImpulse(currentFish.nibbleStrength * 0.4f + 0.2f, Time.deltaTime);
+                break;
+            case RodState.Caught:
+
                 break;
         }
     }

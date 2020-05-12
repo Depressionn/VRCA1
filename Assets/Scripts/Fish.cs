@@ -23,7 +23,7 @@ public class Fish : ScriptableObject
     public float nibbleRate; //Nibbles per second
     public int avgNibble; //Number of nibbles before can reel
     [Range(0.0f, 1.0f)]
-    public float aggressiveNess; //0-1 How strong the fish is
+    public float aggressiveness; //0-1 How strong the fish is
     [Range(0.0f, 0.8f)]
     public float chanceToGetAway; //0-1 Chance to get away per nibble
 }

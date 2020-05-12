@@ -19,5 +19,5 @@ MonoBehaviour:
   nibbleStrength: 0.282
   nibbleRate: 0.483
   avgNibble: 5
-  aggressiveNess: 0.228
+  aggressiveness: 0.661
   chanceToGetAway: 0
