@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167cf676ff97bbe42894e502a68fd83d, type: 3}
+  m_Name: WhiteFish
+  m_EditorClassIdentifier: 
+  fishPrefab: {fileID: 542301004810974401, guid: 57faa21b2203c98449c46f6436d28efb,
+    type: 3}
+  fishName: White Fish
+  fishWeight: 27.1kg
+  fishColour: White/Pink
+  fishSize: Large
+  additionalData: The white fish is one of the strongest non-predators in monster
+    lake
+  rarity: 1
+  nibbleStrength: 0.931
+  nibbleRate: 0.286
+  avgNibble: 4
+  aggressiveness: 0.863
+  chanceToGetAway: 0.537

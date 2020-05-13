@@ -33,6 +33,8 @@ public class FishingRod : Singleton<FishingRod>
 
     Fish currentFish;
 
+    private GameObject fishModel;
+
     public event Action WaitForBite;
     
     // Start is called before the first frame update
@@ -49,6 +51,10 @@ public class FishingRod : Singleton<FishingRod>
         hook.GetComponent<Rigidbody>().isKinematic = true;
         rope.enabled = false;
         UIManager.Instance.HideCatchScreen();
+        if (fishModel)
+        {
+            Destroy(fishModel);
+        }
     }
 
     public void Casting()
@@ -122,6 +128,8 @@ public class FishingRod : Singleton<FishingRod>
     {
         m_rodState = RodState.Caught;
         UIManager.Instance.ShowCatchScreen(currentFish);
+        fishModel = Instantiate(currentFish.fishPrefab, hook.transform, false);
+        hook.transform.rotation = Quaternion.identity;
     }
 
     public void OnSpinReel(float spin)
@@ -131,8 +139,8 @@ public class FishingRod : Singleton<FishingRod>
         {
             if (Vector3.Distance(hook.transform.position, new Vector3(transform.position.x, hook.transform.position.y, transform.position.z)) < 4)
             {
-                if (m_rodState == RodState.ReelingIn || m_rodState == RodState.Caught) Caught();
-                else WaitToCast();
+                if (m_rodState == RodState.ReelingIn) Caught();
+                else if (m_rodState != RodState.Caught) WaitToCast();
             }
             Vector3 target = new Vector3();
             if (m_rodState == RodState.Caught)
@@ -144,8 +152,13 @@ public class FishingRod : Singleton<FishingRod>
                 target = new Vector3(transform.position.x, hook.transform.position.y, transform.position.z);
             }
             hook.transform.position = Vector3.MoveTowards(hook.transform.position, target, 0.001f * spin * Time.deltaTime);
-            UIManager.Instance.SetHookDistance(Vector3.Distance(hook.transform.position, new Vector3(transform.position.x, hook.transform.position.y, transform.position.z)) /2);
+            UIManager.Instance.SetHookDistance(HookToRod()/2);
         }
+    }
+
+    public float HookToRod()
+    {
+        return Vector3.Distance(hook.transform.position, new Vector3(transform.position.x, hook.transform.position.y, transform.position.z));
     }
 
     // Update is called once per frame

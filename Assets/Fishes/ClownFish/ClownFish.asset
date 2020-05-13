@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167cf676ff97bbe42894e502a68fd83d, type: 3}
+  m_Name: ClownFish
+  m_EditorClassIdentifier: 
+  fishPrefab: {fileID: 6547480625038844165, guid: 706add11e29c2ed478716f4d767ef326,
+    type: 3}
+  fishName: Clown Fish
+  fishWeight: 0.52kg
+  fishColour: Orange/White
+  fishSize: Small
+  additionalData: Clown Fish typically live at the bottom of shallow seas in sheltered
+    reefs or in shallow lagoons
+  rarity: 0
+  nibbleStrength: 0.113
+  nibbleRate: 0.656
+  avgNibble: 7
+  aggressiveness: 0.156
+  chanceToGetAway: 0.275

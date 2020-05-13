@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167cf676ff97bbe42894e502a68fd83d, type: 3}
+  m_Name: DumbTail
+  m_EditorClassIdentifier: 
+  fishPrefab: {fileID: 800957947249298493, guid: 8eaeec6a3d96ba84286b654cf4a6f189,
+    type: 3}
+  fishName: Dumb Tail
+  fishWeight: 0.85kg
+  fishColour: Orange/Blue/Yellow
+  fishSize: Small
+  additionalData: Known for its stupidity, the dumbtail often travel in large herds,
+    and is detested by many.
+  rarity: 0
+  nibbleStrength: 0.091
+  nibbleRate: 1.227
+  avgNibble: 4
+  aggressiveness: 0.095
+  chanceToGetAway: 0.101

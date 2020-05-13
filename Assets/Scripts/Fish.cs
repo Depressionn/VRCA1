@@ -22,7 +22,7 @@ public class Fish : ScriptableObject
     [Header("Stats")]
     [Range(0.0f, 1.0f)]
     public float nibbleStrength; //How strong the nibble is
-    [Range(0.2f, 1.0f)]
+    [Range(0.2f, 2.0f)]
     public float nibbleRate; //Nibbles per second
     public int avgNibble; //Number of nibbles before can reel
     [Range(0.0f, 1.0f)]

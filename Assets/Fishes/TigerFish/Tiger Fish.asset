@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 167cf676ff97bbe42894e502a68fd83d, type: 3}
-  m_Name: RedFish
+  m_Name: Tiger Fish
   m_EditorClassIdentifier: 
-  fishPrefab: {fileID: 0}
-  fishName: Red Fish
-  fishWeight: 2kg
-  fishColour: Red
+  fishPrefab: {fileID: 1636445116926049614, guid: 51270fcf572cff84ab89c187890e40f4,
+    type: 3}
+  fishName: Tiger Fish
+  fishWeight: 5kg
+  fishColour: Yellow/Brown/White
   fishSize: Small
-  additionalData: The red fish is a common fish typically found in the shallow regions
-    of monster lake.
-  rarity: 0
-  nibbleStrength: 0.282
-  nibbleRate: 0.483
-  avgNibble: 5
-  aggressiveness: 0.661
-  chanceToGetAway: 0.174
+  additionalData: The tiger fish has distinct stripes which resembles a tiger
+  rarity: 1
+  nibbleStrength: 0.329
+  nibbleRate: 0.411
+  avgNibble: 4
+  aggressiveness: 0.336
+  chanceToGetAway: 0.229

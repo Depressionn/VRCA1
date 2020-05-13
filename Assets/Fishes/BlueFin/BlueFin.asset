@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167cf676ff97bbe42894e502a68fd83d, type: 3}
+  m_Name: BlueFin
+  m_EditorClassIdentifier: 
+  fishPrefab: {fileID: 2054763894803936788, guid: a7d1df8c9fd43964a9df6335ef724ac5,
+    type: 3}
+  fishName: Blue Fin
+  fishWeight: 2.4kg
+  fishColour: Blue
+  fishSize: Small
+  additionalData: The blue fin is a beautiful fish that is only found in monster
+    lake
+  rarity: 1
+  nibbleStrength: 0.174
+  nibbleRate: 0.939
+  avgNibble: 8
+  aggressiveness: 0.102
+  chanceToGetAway: 0.131

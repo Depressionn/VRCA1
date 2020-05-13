@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167cf676ff97bbe42894e502a68fd83d, type: 3}
+  m_Name: DemonNemo
+  m_EditorClassIdentifier: 
+  fishPrefab: {fileID: 5244101447924999376, guid: d30e019755d4f554ab83217b1366e538,
+    type: 3}
+  fishName: Demon Nemo
+  fishWeight: 104kg
+  fishColour: Black/Orange
+  fishSize: Large+
+  additionalData: The Demon Nemo, famously named after its movie star counterpart,
+    is a giant predator monster fish that has a small mouth and uses high frequency
+    bites to eat its prey.
+  rarity: 4
+  nibbleStrength: 0.849
+  nibbleRate: 1.682
+  avgNibble: 20
+  aggressiveness: 0.964
+  chanceToGetAway: 0.621

@@ -40,17 +40,17 @@ public class Lake : Singleton<Lake>
         numberOfNibblesToBite--;
         fishingRod.Nibble(CurrentFish.nibbleStrength * 0.4f + 0.2f);
         timer = 1 / CurrentFish.nibbleRate;
+        if (Random.Range(0f, 1f) < (CurrentFish.chanceToGetAway / CurrentFish.avgNibble) / luck)
+        {
+            fishingRod.WaitForBiteEvent();
+        }
         Debug.Log("Nibble");
     }
 
     private void Bite()
     {
         fishingRod.Bite(CurrentFish);
-        timer = Random.Range(1/CurrentFish.chanceToGetAway - 0.5f, 1/CurrentFish.chanceToGetAway + 1f);
-        if (Random.Range(0f, 1f) < CurrentFish.chanceToGetAway / CurrentFish.avgNibble)
-        {
-            fishingRod.WaitForBiteEvent();
-        }
+        timer = Random.Range(1 / CurrentFish.chanceToGetAway - 0.5f, 1 / CurrentFish.chanceToGetAway + 1f);
         Debug.Log("Bite");
     }
 
@@ -74,7 +74,7 @@ public class Lake : Singleton<Lake>
         } else if (fishingRod.CurrentRodState == RodState.Biting)
         {
             fishingRod.CanReelIn();
-            timer = Random.Range(1 / CurrentFish.chanceToGetAway * 5f, 1 / CurrentFish.chanceToGetAway + 1f * 8f);
+            timer = Random.Range(1 / CurrentFish.chanceToGetAway * 5f, 1 / CurrentFish.chanceToGetAway + 1f * 8f) + fishingRod.HookToRod() * CurrentFish.aggressiveness;
         }
     }
 
