@@ -29,7 +29,7 @@ public class ReelLogic : MonoBehaviour {
         CheckLength();
         float avg = 0;
         foreach (float f in m_prevSpins) avg += f;
-        UIManager.Instance.lmao.text = $"Spm: {avg / 5}";
+        UIManager.Instance.RPM.text = $"Reel Speed - {avg / 5}RPM";
     }
 
     private void OnApplicationQuit() {
