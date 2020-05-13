@@ -112,6 +112,11 @@ public class FishingRod : Singleton<FishingRod>
         m_rodState = RodState.ReelingIn;
     }
 
+    public void WaitForBiteEvent()
+    {
+        WaitForBite?.Invoke();
+    }
+
     public void OnSpinReel(float spin)
     {
 
