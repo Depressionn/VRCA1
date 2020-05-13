@@ -15,6 +15,10 @@ MonoBehaviour:
   fishPrefab: {fileID: 0}
   fishName: Red Fish
   fishWeight: 2kg
+  fishColour: Red
+  fishSize: Small
+  additionalData: The red fish is a common fish typically found in the shallow regions
+    of monster lake.
   rarity: 0
   nibbleStrength: 0.282
   nibbleRate: 0.483

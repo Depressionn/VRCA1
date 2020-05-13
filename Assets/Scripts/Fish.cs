@@ -14,6 +14,9 @@ public class Fish : ScriptableObject
     [Header("Visuals")]
     public string fishName;
     public string fishWeight;
+    public string fishColour;
+    public string fishSize;
+    public string additionalData;
     public FishRarity rarity;
 
     [Header("Stats")]

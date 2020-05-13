@@ -24,8 +24,8 @@ public class SeaFloor : MonoBehaviour
         {
             fishingRod.LandedInWater();
             Debug.Log("LandedInWater");
-            UIManager.Instance.SetCastingDistance(Vector3.Distance(fishingRod.transform.position, fishingRod.hook.transform.position));
-            UIManager.Instance.SetHookDistance(Vector3.Distance(fishingRod.transform.position, fishingRod.hook.transform.position));
+            UIManager.Instance.SetCastingDistance(Vector3.Distance(fishingRod.hook.transform.position, new Vector3(fishingRod.transform.position.x, fishingRod.hook.transform.position.y, fishingRod.transform.position.z)));
+            UIManager.Instance.SetHookDistance(Vector3.Distance(fishingRod.hook.transform.position, new Vector3(fishingRod.transform.position.x, fishingRod.hook.transform.position.y, fishingRod.transform.position.z)));
         }
     }
 }

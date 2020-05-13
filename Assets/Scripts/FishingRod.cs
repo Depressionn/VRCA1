@@ -48,6 +48,7 @@ public class FishingRod : Singleton<FishingRod>
         m_rodState = RodState.WaitingToCast;
         hook.GetComponent<Rigidbody>().isKinematic = true;
         rope.enabled = false;
+        UIManager.Instance.HideCatchScreen();
     }
 
     public void Casting()
@@ -117,6 +118,12 @@ public class FishingRod : Singleton<FishingRod>
         WaitForBite?.Invoke();
     }
 
+    public void Caught()
+    {
+        m_rodState = RodState.Caught;
+        UIManager.Instance.ShowCatchScreen(currentFish);
+    }
+
     public void OnSpinReel(float spin)
     {
 
@@ -124,7 +131,7 @@ public class FishingRod : Singleton<FishingRod>
         {
             if (Vector3.Distance(hook.transform.position, new Vector3(transform.position.x, hook.transform.position.y, transform.position.z)) < 4)
             {
-                if (m_rodState == RodState.ReelingIn || m_rodState == RodState.Caught) m_rodState = RodState.Caught;
+                if (m_rodState == RodState.ReelingIn || m_rodState == RodState.Caught) Caught();
                 else WaitToCast();
             }
             Vector3 target = new Vector3();
