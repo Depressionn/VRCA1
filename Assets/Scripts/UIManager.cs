@@ -68,10 +68,11 @@ public class UIManager : Singleton<UIManager> {
         fishrarity.color = color;
 
         string dataString = "";
-        dataString += $"Weight:{fish.fishWeight}<br>";
-        dataString += $"Size:{fish.fishSize}<br>";
-        dataString += $"Colour:{fish.fishColour}<br>";
-        dataString += "<br>" + fish.additionalData;
+        dataString += $"Weight: {fish.fishWeight}\n";
+        dataString += $"Size: {fish.fishSize}\n";
+        dataString += $"Colour: {fish.fishColour}\n";
+        dataString += "\n" + fish.additionalData;
+        fishdata.text = dataString;
     }
 
     public void HideCatchScreen()
