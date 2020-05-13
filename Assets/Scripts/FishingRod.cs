@@ -144,7 +144,7 @@ public class FishingRod : Singleton<FishingRod>
                 target = new Vector3(transform.position.x, hook.transform.position.y, transform.position.z);
             }
             hook.transform.position = Vector3.MoveTowards(hook.transform.position, target, 0.001f * spin * Time.deltaTime);
-            UIManager.Instance.SetHookDistance(Vector3.Distance(transform.position, hook.transform.position));
+            UIManager.Instance.SetHookDistance(Vector3.Distance(hook.transform.position, new Vector3(transform.position.x, hook.transform.position.y, transform.position.z)) /2);
         }
     }
 
