@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 388e1bf318d7db343b4744452fbee531, type: 2}
 --- !u!1001 &10055275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,6 +131,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -346,6 +354,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.510517
@@ -429,6 +445,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -77.759674
@@ -511,6 +535,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -607,6 +639,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.156149
@@ -663,6 +703,14 @@ PrefabInstance:
     - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_Name
       value: summer_ftree_05 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -747,6 +795,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -57.09152
@@ -830,6 +886,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.87758
@@ -912,6 +976,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1506,6 +1578,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -84.9619
@@ -1614,6 +1694,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1793,6 +1881,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.867211
@@ -1862,6 +1958,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.9612875
@@ -1918,6 +2022,14 @@ PrefabInstance:
     - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_Name
       value: summer_plane_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4973730918114486, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2173,6 +2285,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -81.11303
@@ -2256,6 +2376,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 56.698997
@@ -2324,6 +2452,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2482,6 +2618,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2691,6 +2835,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_tree_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1785225163648680, guid: 88ed72bff7b6c60438ad7d85f3f5dcff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785225163648680, guid: 88ed72bff7b6c60438ad7d85f3f5dcff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4133901084475514, guid: 88ed72bff7b6c60438ad7d85f3f5dcff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.226
@@ -2759,6 +2911,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2842,6 +3002,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3017,6 +3185,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -91.16997
@@ -3126,6 +3302,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.96
@@ -3202,6 +3386,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3688,6 +3880,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.032007
@@ -3782,6 +3982,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3892,6 +4100,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.278015
@@ -3986,6 +4202,14 @@ PrefabInstance:
     - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_Name
       value: summer_ftree_05 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4095,6 +4319,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4330,6 +4562,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.1064
@@ -4386,6 +4626,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4469,6 +4717,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4650,6 +4906,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.55
@@ -4707,6 +4971,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.0963998
@@ -4763,6 +5035,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5005,6 +5285,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -90.35834
@@ -5099,6 +5387,14 @@ PrefabInstance:
     - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_Name
       value: summer_plane_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4973730918114486, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5195,6 +5491,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.08
@@ -5257,6 +5561,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5341,6 +5653,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.66269
@@ -5409,6 +5729,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5519,6 +5847,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_05 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -88.36468
@@ -5628,6 +5964,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.94159
@@ -5726,6 +6070,14 @@ PrefabInstance:
     - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_Name
       value: summer_ftree_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5964,6 +6316,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -54.251335
@@ -6140,6 +6500,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_05 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.21001
@@ -6223,6 +6591,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.93
@@ -6285,6 +6661,14 @@ PrefabInstance:
     - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_Name
       value: summer_ftree_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6451,6 +6835,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.898052
@@ -6601,6 +6993,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.78468
@@ -6657,6 +7057,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6727,6 +7135,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -63.057358
@@ -6789,8 +7205,8 @@ GameObject:
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1021166863
 Transform:
@@ -6876,6 +7292,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6986,6 +7410,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2991347
@@ -7049,6 +7481,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.88562
@@ -7105,6 +7545,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7215,6 +7663,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_log_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1234069862613752, guid: f451ce72ac95a8c4dabd10fc2c7b7cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234069862613752, guid: f451ce72ac95a8c4dabd10fc2c7b7cde, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4969504096371310, guid: f451ce72ac95a8c4dabd10fc2c7b7cde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.999
@@ -7284,6 +7740,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.035667
@@ -7340,6 +7804,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7423,6 +7895,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7519,6 +7999,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.34
@@ -7581,6 +8069,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7837,6 +8333,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -106
@@ -7920,6 +8424,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.475534
@@ -8002,6 +8514,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8092,6 +8612,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.4829197
@@ -8174,6 +8702,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8270,6 +8806,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2241817
@@ -8338,6 +8882,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8909,6 +9461,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.908148
@@ -8991,6 +9551,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9075,6 +9643,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.7464
@@ -9131,6 +9707,14 @@ PrefabInstance:
     - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_Name
       value: summer_ftree_05 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9213,6 +9797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1388382167}
+  - component: {fileID: 1388382168}
   m_Layer: 0
   m_Name: BOID_MANAGER
   m_TagString: Untagged
@@ -9234,6 +9819,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1388382168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388382166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e12a821ac8e0c047a13607746c46d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boidPfb: {fileID: 3266797991948601565, guid: a500fefaccf15ab40be3977e84143703, type: 3}
+  spawnCount: 200
 --- !u!1001 &1421823700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9244,6 +9843,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9348,6 +9955,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_05 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -53.82006
@@ -9424,6 +10039,14 @@ PrefabInstance:
     - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_Name
       value: summer_ftree_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9507,6 +10130,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9625,6 +10256,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9787,6 +10426,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.55712
@@ -9939,7 +10586,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1547779586
 Transform:
@@ -10106,6 +10753,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -89.13188
@@ -10218,6 +10873,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10379,6 +11042,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.84989
@@ -10442,6 +11113,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.22754
@@ -10498,6 +11177,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10768,6 +11455,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -72.41051
@@ -10920,6 +11615,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.26922
@@ -10977,6 +11680,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.7655
@@ -11033,6 +11744,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11129,6 +11848,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.0247
@@ -11211,6 +11938,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11339,7 +12074,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_Name
-      value: summer_plane_1 (2)
+      value: Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4973730918114486, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11518,6 +12265,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.72844
@@ -11686,6 +12441,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -51.514973
@@ -11848,6 +12611,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -72.20663
@@ -11931,6 +12702,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.261806
@@ -11999,6 +12778,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12174,6 +12961,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.9036002
@@ -12242,6 +13037,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12510,6 +13313,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -55.44736
@@ -12592,6 +13403,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12687,6 +13506,14 @@ PrefabInstance:
     - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_Name
       value: summer_ftree_00 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12797,6 +13624,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.33
@@ -12885,6 +13720,14 @@ PrefabInstance:
     - target: {fileID: 1234069862613752, guid: f451ce72ac95a8c4dabd10fc2c7b7cde, type: 3}
       propertyPath: m_Name
       value: summer_log_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234069862613752, guid: f451ce72ac95a8c4dabd10fc2c7b7cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234069862613752, guid: f451ce72ac95a8c4dabd10fc2c7b7cde, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4969504096371310, guid: f451ce72ac95a8c4dabd10fc2c7b7cde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13055,6 +13898,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_10 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -74.206726
@@ -13150,6 +14001,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.6553
@@ -13206,6 +14065,14 @@ PrefabInstance:
     - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_Name
       value: summer_ftree_07 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13289,6 +14156,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13524,6 +14399,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_plane_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4973730918114486, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13644,6 +14527,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_07 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1274901861749970, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4239444706362038, guid: 394f463e85fba154ebe1fb2ada2c0ce0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.16855
@@ -13727,6 +14618,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_00 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1190771200674368, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4876233533255788, guid: 53ed5f3efe33f8b4d8b78e0a3940e6fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -94.50983
@@ -13809,6 +14708,14 @@ PrefabInstance:
     - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_Name
       value: summer_ftree_10 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632540470223396, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4666711171533652, guid: 88d68d7ca3f107749862eaaf48c2bcab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13977,6 +14884,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: summer_ftree_05 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.039663
@@ -14059,6 +14974,14 @@ PrefabInstance:
     - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_Name
       value: summer_ftree_05 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277939628082508, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415202441342702, guid: a75e902571b901e47aac6b0bad9b2d96, type: 3}
       propertyPath: m_LocalPosition.x
