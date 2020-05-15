@@ -5396,6 +5396,10 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1952095986292654, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4973730918114486, guid: fb6292f54f58a204c8841117a61b7115, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

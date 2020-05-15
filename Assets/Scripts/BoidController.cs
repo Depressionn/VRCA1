@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.AI;
 
 public class BoidController : MonoBehaviour {
     public float sightRange = 1.0f;
@@ -16,7 +15,7 @@ public class BoidController : MonoBehaviour {
     void Update() {
         BoidBehaviour();
 
-        transform.position = new Vector3(transform.position.x, 0, transform.position.z);
+        transform.position = new Vector3(transform.position.x, -0.4f, transform.position.z);
     }
 
     private void BoidBehaviour() {
@@ -49,6 +48,11 @@ public class BoidController : MonoBehaviour {
         }
 
         transform.position += transform.forward * moveSpeed * Time.deltaTime;
+        //NavMeshHit hit;
+        //if(!NavMesh.SamplePosition(transform.position + transform.forward, out hit, sightRange, 1)) {
+        //    float interpolationValue = Mathf.Exp(-rotationSpeed * Time.deltaTime);
+        //    transform.rotation = Quaternion.Slerp(Quaternion.FromToRotation(Vector3.forward, transform.right), transform.rotation, interpolationValue);
+        //}
     }
 
     private Vector3 GetSeperationVector(Transform _target) {
