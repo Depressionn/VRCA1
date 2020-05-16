@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.AI;
 
 public class BoidController : MonoBehaviour {
     public float sightRange = 1.0f;
@@ -45,6 +44,7 @@ public class BoidController : MonoBehaviour {
         if(rot != transform.rotation) {
             float interpolationValue = Mathf.Exp(-rotationSpeed * Time.deltaTime);
             transform.rotation = Quaternion.Slerp(rot, transform.rotation, interpolationValue);
+            transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
         }
 
         transform.position += transform.forward * moveSpeed * Time.deltaTime;
